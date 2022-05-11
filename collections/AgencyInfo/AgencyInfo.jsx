@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Container, Left, Paragraph, Right, Title } from "./elements";
 
-export const AgencyInfo = ({ image, title, description }) => {
+export const AgencyInfo = ({ image, title, description, underline }) => {
   return (
     <Container>
       <Left>
@@ -13,7 +13,7 @@ export const AgencyInfo = ({ image, title, description }) => {
         />
       </Left>
       <Right>
-        <Title>{title}</Title>
+        <Title underline={underline}>{title}</Title>
         <Paragraph>{description}</Paragraph>
       </Right>
     </Container>

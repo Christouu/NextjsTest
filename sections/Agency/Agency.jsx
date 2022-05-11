@@ -31,6 +31,7 @@ export const Agency = ({ image, data, ...props }) => {
               image={d.image}
               title={d.title}
               description={d.description}
+              underline={d.underline}
             />
           ))}
         </RightInfo>

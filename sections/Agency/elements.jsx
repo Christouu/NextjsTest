@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mobile } from "../../responsive";
 
 import {
   SectionContainer,
@@ -30,13 +31,13 @@ export const InfoContainer = styled(({ ...props }) => <div {...props} />)`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  margin: 0px 5rem;
   margin-bottom: 5rem;
+  ${mobile({ flexDirection: "column", margin: "0 0" })}
 `;
 
 export const LeftInfo = styled(({ ...props }) => <div {...props} />)`
-  width: 70%;
-  height: 100%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,4 +46,7 @@ export const LeftInfo = styled(({ ...props }) => <div {...props} />)`
 export const RightInfo = styled(({ ...props }) => <div {...props} />)`
   display: flex;
   flex-direction: column;
+  width: 50%;
+
+  ${mobile({ margin: "5rem auto" })}
 `;

@@ -31,6 +31,7 @@ const agencyProps = {
       title: "Pitch",
       description:
         "Comprehensive <b>pitch management<b> including comms, diary managment and pitch hosting",
+      underline: "true",
     },
   ],
 };
