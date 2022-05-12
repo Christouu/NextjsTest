@@ -8,9 +8,9 @@ export const Container = styled(({ ...props }) => <div {...props} />)`
   width: 100%;
 
   &:nth-child(3) {
-    border: 3px solid blue;
+    border: 3px solid #92dbea;
     border-radius: 10px;
-    color: blue;
+    color: #92dbea;
   }
 
   ${mobile({ justifyContent: "center" })}
@@ -30,7 +30,8 @@ export const Title = styled(({ ...props }) => <h3 {...props} />)`
   font-size: 1.25rem;
   line-height: 1.875rem;
   font-weight: bold;
-  border-bottom: ${(props) => props.underline === "true" && "2px solid blue"};
+  border-bottom: ${(props) =>
+    props.underline === "true" && "2px solid #92dbea"};
   width: 55px;
 `;
 
