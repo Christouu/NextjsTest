@@ -16,21 +16,21 @@ const agencyProps = {
       image: { src: "/img/next1.png", alt: "", width: 150, height: 150 },
       title: "Brief",
       description:
-        "Complete <b>brief writing or simple guidance<b> on what to include, we've got you covered",
+        "Complete brief writing or simple guidance on what to include, we've got you covered",
     },
     {
       id: 2,
       image: { src: "/img/next2.png", alt: "", width: 150, height: 150 },
       title: "Search",
       description:
-        "In depth agency search covering; <b>criteria matching<b>, door knocking and due-dilligence vetting",
+        "In depth agency search covering; criteria matching, door knocking and due-dilligence vetting",
     },
     {
       id: 3,
       image: { src: "/img/next3.png", alt: "", width: 150, height: 150 },
       title: "Pitch",
       description:
-        "Comprehensive <b>pitch management<b> including comms, diary managment and pitch hosting",
+        "Comprehensive pitch management including comms, diary managment and pitch hosting",
       underline: "true",
     },
   ],
